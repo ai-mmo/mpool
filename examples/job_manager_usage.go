@@ -270,7 +270,7 @@ func jobManagerHighConcurrencyExample() {
 	fmt.Printf("高并发测试最终统计: %+v\n", finalStats)
 }
 
-func main1() {
+func main() {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
 
 	// 运行各种JobManager示例
